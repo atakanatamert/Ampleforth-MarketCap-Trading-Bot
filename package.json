@@ -1,0 +1,24 @@
+{
+  "name": "bitfinex-bot",
+  "version": "1.0.0",
+  "description": "Trading bot for bitfinex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atakanatamert/bitfinex-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atakanatamert/bitfinex-bot/issues"
+  },
+  "homepage": "https://github.com/atakanatamert/bitfinex-bot#readme",
+  "dependencies": {
+    "ccxt": "^1.64.84",
+    "node-cron": "^3.0.0"
+  }
+}
