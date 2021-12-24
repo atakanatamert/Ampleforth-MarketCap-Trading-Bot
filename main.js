@@ -11,7 +11,7 @@ let orderType = "buy";
 
 var cron = require("node-cron");
 
-cron.schedule("0 * * * *", () => {
+cron.schedule("*/30 * * * *", () => {
   bitfinex.fetchOpenOrders().then((orders) => {
     if (orders.length == 0) {
       createOrder();
